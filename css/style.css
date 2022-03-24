@@ -1,0 +1,30 @@
+.fundo{
+    background-color: #19BD9B;
+    background-size: 100vh;
+}
+.container1{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   position: absolute;
+   width: 100vw;
+   height: 100%;
+   overflow: hidden;
+}
+.titulo1{
+    top: 70vh;
+    position: absolute;
+    font-family: "adumuregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10vw;
+    display: flex;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+#logo-eic{
+    width: 10vw;
+    top:80vh;
+    left: 80%;
+}

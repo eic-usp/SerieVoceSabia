@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS10</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Adumu-font/stylesheet.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/video.css">
+    
+</head>
+<body class="fundo">
+    <!-------------------------------- MENU VIDEO -------------------------------->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="btn button-next">
+                    <a class="titulo-7" href="VS11.html"><img id="skip" src="img/skip_icon.svg">Ir para o próximo vídeo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-fluid">
+                <button class="btn button-replay" id="Replay">
+                    <a class="titulo-9" href=""><img id="replay" src="img/replay.svg">Assistir Novamente</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="btn button-back">
+                    <a class="titulo-8" href="Inicio.html"><img id="back" src="img/menu_round_button_icon.svg">Voltar ao menu inicial</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------------------------- HTML TAG VIDEO -------------------------------->
+
+    <div class="container">
+        <div class="row-fluid">
+            <div class="col-fluid">
+                <video class = "video play1" id="vs10" width="100%" height="80%" autoplay>
+                    <source src="exemplos/VS10Midias.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>    
+    <script >
+        var vs10 = document.getElementById("vs10");
+        document.getElementById("Replay").disabled = true;
+        vs10.onended = event => {
+        document.getElementById("Replay").disabled = false;
+
+}
+    </script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+
+       
+    
+</html>

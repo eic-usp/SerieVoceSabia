@@ -1,0 +1,107 @@
+
+*{
+    background-color: #19BD9B;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #19BD9B;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.video{
+    padding: 5%;
+}
+.btn{
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+    /*background-color: transparent;*/
+    width: 30%;
+    background:aquamarine;
+    position: absolute;
+
+}
+
+/* ------------------------------------- PRÓXIMO VÍDEO ------------------------------------- */
+
+.button-next{
+    bottom: 2.5%;
+    right: 2vw;
+    padding-left: 2vw;
+    width: 30.666vw;
+}
+.titulo-7{
+    background-color: transparent;
+    color: #1e7a65;
+    font-family:"adumuregular";
+    font-size: 3vh;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#skip{
+    background-color: aquamarine;
+    width: 10%; 
+    height: 10%; 
+    padding: 2%; 
+}
+
+/* ------------------------------------ RETORNO MENU INICIAL ------------------------------------ */
+
+.button-back{
+    bottom: 2.5%;  
+    left: 2vw;
+    padding-right: 2vw;
+    width: 30.6666vw;
+}
+.titulo-8{
+    background-color: transparent;
+    color: #1e7a65;
+    font-family:"adumuregular";
+    font-size: 3vh;    
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back{
+    background: #7fffd4;
+    width: 10%; 
+    height: 10%;
+    padding: 2%; 
+}
+/* ------------------------------------ REPLAY ------------------------------------ */
+
+.button-replay{
+    bottom: 2.5%;
+    /*right: 35%;*/
+    width: 30.666vw;
+    left: 34.666vw;
+}
+.titulo-9{
+    background-color: transparent;
+    color: #1e7a65;
+    font-family: "adumuregular";
+    font-size: 3vh;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#replay{
+    background-color: aquamarine;
+    width: 10%; 
+    padding: 2%; 
+}
