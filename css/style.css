@@ -34,6 +34,10 @@
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
+.container2 .row .col{
+    height: 21.666vh;
+    width: 18vw;
+}
 .titulo1{
     top: 79vh;
     position: relative;
@@ -65,4 +69,110 @@
     left: 52vw;
     position: relative;
     color:#19BD9B ;
+    position: absolute;
 }
+.vs15 img{
+   width: 400px;
+   border-radius: 200px;
+   top: -5vh;
+   left: -2vw;
+   position: relative;
+}
+.vs1 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs2 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs3 img{
+    width: 400px;
+    border-radius: 200px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs4 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs5 img{
+    width: 400px;
+    border-radius: 200px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs6 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs7 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs8 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs9 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs10 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs11 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs12 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs13 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
+ .vs14 img{
+    width: 400px;
+    border-radius: 400px;
+    top: -5vh;
+    left: -2vw;
+    position: relative;
+ }
