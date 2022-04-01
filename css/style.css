@@ -78,90 +78,74 @@
     position: absolute;
 }
 .vs1 img{
-    width: 13vw;
-    border-radius: 400px;
+   width: 70%;
     top: 5vh;
     left: -2vw;
     position: relative;
  }
  .vs2 img{
-    width: 13vw;
-    border-radius: 250px;
-    
+   width: 70%;
     position: relative;
  }
  .vs3 img{
-    width: 12.5vw;
-    border-radius: 200px;
-    
+   width: 70%;
     position: relative;
  }
  .vs4 img{
-    width: 12vw;
-    border-radius: 400px;
-    
+   width: 70%;
     position: relative;
  }
  .vs5 img{
-    width: 13vw;
+   width: 70%;
     top: 3.5vh;
     position: relative;
  }
  .vs6 img{
-    width: 11vw;
-    border-radius: 250px;
+   width: 70%;
     top: 2vh;
     left: auto;
     position: relative;
  }
  .vs7 img{
-    width: 16vw;
-    border-radius: 400px;
+   width: 70%;
     top: 13vh;
     position: relative;
  }
  .vs8 img{
-    width: 12.6vw;
+   width: 70%;
     top: 1vh;
     position: relative;
  }
  .vs9 img{
-    width: 12vw;
+   width: 70%;
     left: 10vw; 
     position: relative;
  }
  .vs10 img{
-    width: 14vw;
-    border-radius: 400px;
+   width: 70%;
     top: 1vh;
     position: relative;
  }
  .vs11 img{
-    width: 13vw;
-    border-radius: 400px;
+   width: 70%;
     top: 9vh;
     position: relative;
  }
  .vs12 img{
-    width: 12.5vw;
-    border-radius: 400px;
-    
+   width: 70%;
     position: relative;
  }
  .vs13 img{
-    width: 11vw;
     border-radius: 400px;
-    
+    width: 70%;
     position: relative;
  }
  .vs14 img{
-    width: 11.5vw;
-    border-radius: 400px;
+   width: 70%;
     top: 1.5vh;
     position: relative;
  }
  .vs15 img{
-   width: 14vw;
-   border-radius: 200px;
+   width: 70%;
    position: relative;
 }
