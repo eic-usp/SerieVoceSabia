@@ -1,6 +1,7 @@
 .fundo{
     background-color: #19BD9B;
     background-size: 100vw;
+    overflow: hidden;
 }
 .fundo1{
     background-image: url("/img/head-background.svg");
@@ -20,13 +21,13 @@
   height: 100vh;
 }
 .container1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    position: absolute;
-    width: 100vw;
-    height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      position: absolute;
+      width: 100vw;
+      height: auto;
 }
 .container2{
       display: flex;
@@ -85,9 +86,10 @@
     position: absolute;
 }
 .vs1 img{
-  width: 22vh;
-   height:21.6666vh;
+  width: 18vw;
   position: relative;
+  left: 0.6vw;
+  top: 8vh;
  }
  .vs2 img{
   width: 22vh;
@@ -111,6 +113,7 @@
  }
  .vs6 img{
  width: 22vh;
+ top: 3.5vh;
   height:21.6666vh;
   position: relative;
  }
@@ -137,14 +140,13 @@
  .vs11 img{
  width: 22vh;
   height:21.6666vh;
-  
+  left: 2vw;
   position: relative;
  }
  .vs12 img{
-   top: -5vh;
-   left: -1vw;
- width: 22vh;
-  height:21.6666vh;
+   top: -10vh;
+   left: -2vw;
+ width: 14vw;
   position: relative;
  }
  .vs13 img{
@@ -153,15 +155,16 @@
   position: relative;
  }
  .vs14 img{
-  left: -5vw;
-  top: -1vh;
+  left: -3vw;
+  top: -3vh;
  width: 22vh;
   height:21.6666vh;
   position: relative;
  }
  .vs15 img{
- width: 22vh;
-  height:21.6666vh;
+ width: 15vw;
+ top: 0.5vh;
+ left: 0.3vw;
   position: relative;
 }
 .col-4{
@@ -186,4 +189,22 @@
   top: 65vh;
   position: absolute;
   width: 10%;
+}
+.inicio{
+  font-family: "adumuregular";
+  font-size: 2.5vw;
+  width: 10vw;
+  margin-left: 90.8vw;
+  top: 80vh;
+  position: absolute;
+  color: gainsboro;
+}
+.img-inicio{
+  width: 10vw;
+  left: 91vw;
+  position: absolute;
+}
+.img-inicio img{
+ width: 6vw;
+ margin-top: 61.5vh;
 }
