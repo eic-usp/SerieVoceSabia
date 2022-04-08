@@ -1,0 +1,244 @@
+
+.fundex{
+    background-image: url("/SeriePandemias/assets/img/fundo-globo.svg");
+    background-color: #19BD9B;
+    background-repeat: no-repeat;
+    background-size: 90vw;
+    background-position: 30% -5%;
+    overflow: hidden;
+}
+.fundo2{
+    background-color: #19BD9B;
+}
+.fundo {
+    margin-top: 40px;
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #19BD9B;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.titulo-1{
+    margin-top: 0.7em;
+    margin-bottom: 0.1em;
+    position: absolute;
+    font-family: "adumuregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5vh;
+    line-height: 52px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    left: 60px;
+}
+.titulo-2{
+    color: #1e7a65;
+    font-family: "adumuregular";
+    font-size:5vh;
+    margin-top:4em;
+    position:absolute;
+    left:60px;
+    margin-left: 35px;
+}
+.titulo-3{
+    font-family: "adumuregular";
+    font-size: 8vh;
+    margin-top: 73vh;
+    position: absolute;
+    left: 15%;
+    color:aquamarine;
+}
+#logo-eic{
+    top:80%;
+    left:90%;
+    position: absolute;
+    width: 5.5vw;
+}
+#play{
+    margin-top: 32.5%;
+    left: -12%;
+    position: absolute;
+    width: 70%;
+}
+.titulo-4{ /* PULAR INTRODUÇÃO*/
+    background-color: transparent;
+    color: #1e7a65;
+    font-family: "adumuregular";
+    font-size: 4vh;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.button-intro{ /* PULAR INTRODUÇÃO*/
+    bottom: 1%;
+    right: 10%;
+}
+
+/* ------------------------------------ ITENS MENU INICIAL ------------------------------------ */
+
+.titulo-5{ /* PANDEMIAS */
+    margin-top: 0.7em;
+    margin-bottom: 0.1em;
+    position: absolute;
+    font-family: "adumuregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.5vh;
+    line-height: 52px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.titulo-6{
+    left: 50%;
+    font-family: "adumuregular";
+    font-size: 5.9vh;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-bottom: 10%;
+    color: #B3F2CB;
+    margin-top: 4.6em;
+}
+.container1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   margin-top: 20%;
+   position: absolute;
+   width: 100vw;
+   height: auto;
+   overflow: hidden;
+}
+/*.col-lg-4{
+    height: 15vh;
+    flex-basis: auto;
+    flex-shrink: 0;
+}
+*/
+.rowinit-covid{
+    height: 20vh;
+    background-size:cover !important;
+    background-position: bottom;
+    background: url("/SeriePandemias/assets/img/btn-covid.svg");
+}
+.rowinit-gripe{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/SeriePandemias/assets/img/btn-gripe.svg");
+}
+.rowinit-variola{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/SeriePandemias/assets/img/btn-variola.svg");
+    
+}
+.rowinit-peste{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/SeriePandemias/assets/img/btn-peste.svg");
+    
+}
+.rowinit-colera{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/SeriePandemias/assets/img/btn-colera.svg");
+    
+}
+.rowinit-tifo{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/SeriePandemias/assets/img/btn-covid.svg");
+}
+.col-lg-4{
+    margin-left: -4.5vw ;
+    margin-right: -1vw;
+}
+.inicio{
+    top: 67%;
+    position: absolute;
+    color: #B3F2CB;
+    font-family: "adumuregular";
+    padding-bottom: 10px;
+    left: 6vw;
+    font-size: 4.5vh;
+}
+.img-inicio img{
+    top: 30%;
+    left: -11vw ; 
+    position: absolute;
+    width: 40%;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.titulo-10{
+    background-color: transparent;
+    color: black;
+    font-family: "adumuregular";
+    font-size: 4vh;
+    text-decoration: none;
+    margin-top: 75vh;
+    margin-left: 15px;
+    position: absolute;
+}
+.titulo-11{
+    background-color: transparent;
+    color: black;
+    font-family:"adumuregular";
+    font-size: 4vh;
+    text-decoration: none;
+    margin-top: 65vh;
+    margin-left: 180px;
+    position: absolute;
+}
+.titulo-12{
+    background-color: transparent;
+    color: black;
+    font-family: "adumuregular";
+    font-size: 4vh;
+    text-decoration: none;
+    margin-top: 75vh;
+    left: 120vh;
+    position: absolute;
+}
+#img1{
+    width: 60em;
+    margin-top: 20%;
+    margin-left:1%;
+    position: absolute;
+}
+#img3{
+    width: 60em;
+    margin-top: 20.3%;
+    margin-left:0;
+    position: absolute;
+}
+.menu-h{ /* img retorno menu */
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 100%; 
+}
+#img2{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 3%;
+    position: absolute;
+}
+.voltar{
+    text-align: center;
+}
+
