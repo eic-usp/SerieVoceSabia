@@ -185,10 +185,12 @@
   margin-bottom: 5vh;
 }
 .log-logo{
-  left: 80vw;
-  top: 65vh;
+  left: 87vw;
+  top: 77vh;
   position: absolute;
-  width: 10%;
+}
+.log-logo img{
+  width: 10vw;
 }
 .inicio{
   font-family: "adumuregular";
