@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 .fundo1{
-    background-image: url("/img/head-background.svg");
+    background-image: url("../img/head-background.svg");
     background-color: #19BD9B;
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -40,7 +40,7 @@
       position: absolute;
       border-radius: 0  32.5vh 32.5vh 0;
       top: 10vh ;
-      background-image: url("/img/bkg.svg");
+      background-image: url("../img/bkg.svg");
       background-size: 50% ;
 }
 .container2 .row{
